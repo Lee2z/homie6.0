@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f30f0231eb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg py-4 border-body bg-body-tertiary" data-bs-theme="dark">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="#">
+                <img src="img/Untitled-3.png" alt="" style="width:126px">
+            </a>
+
+            <div class="btn-group">
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex justify-content-center w-100">
+                    <ul class="navbar-nav ms-3 mb-2 mb-lg-0 d-flex justify-content-between">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-block w-100 active-link"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Listings <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" style="width:0px;">
+                                <li class="d-flex justify-content-between align-items-center position-relative">
+                                    <a href="" class="link">
+                                        <a href="" class="dropdown-item p-0">Hotel</a>
+                                        <a><i class="fa-solid fa-ellipsis"></i></a>
+                                    </a>
+
+                                    <ul class="sub-down position-absolute">
+                                        <li><a href="">Hotel Home</a></li>
+                                        <li><a href="">Hotel Chain</a></li>
+                                        <li><a href="">Hotel Resort</a></li>
+                                        <li><a href="">Hotel Grid</a></li>
+                                        <li><a href="">Hotel List</a></li>
+                                        <li><a href="">Hotel Detail</a></li>
+                                        <li><a href="">Room Detail</a></li>
+                                        <li><a href="">Hotel Booking</a></li>
+                                    </ul>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center position-relative">
+                                    <a href="" class="link">
+                                        <a href="" class="dropdown-item p-0">Flight</a>
+                                        <a><i class="fa-solid fa-ellipsis"></i></a>
+                                    </a>
+
+                                    <ul class="sub-down position-absolute">
+                                        <li><a href="">Flight Home</a></li>
+                                        <li><a href="">Flight List</a></li>
+                                        <li><a href="">Flight Detail</a></li>
+                                        <li><a href="">Flight Booking</a></li>
+                                    </ul>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center position-relative">
+                                    <a href="" class="link">
+                                        <a href="" class="dropdown-item p-0">Tour</a>
+                                        <a><i class="fa-solid fa-ellipsis"></i></a>
+                                    </a>
+
+                                    <ul class="sub-down position-absolute">
+                                        <li><a href="">Tour Home</a></li>
+                                        <li><a href="">Tour Grid</a></li>
+                                        <li><a href="">Tour Detail</a></li>
+                                        <li><a href="">Tour Booking</a></li>
+                                    </ul>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center position-relative">
+                                    <a href="" class="dropdown-item p-0">Cab</a>
+                                    <a><i class="fa-solid fa-ellipsis"></i></a>
+
+                                    <ul class="sub-down position-absolute">
+                                        <li><a href="">Cab Home</a></li>
+                                        <li><a href="">Cab Grid</a></li>
+                                        <li><a href="">Cab Detail</a></li>
+                                        <li><a href="">Cab Booking</a></li>
+                                    </ul>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center position-relative">
+                                    <a href="" class="dropdown-item p-0">Directory</a>
+                                    <a><i class="fa-solid fa-ellipsis"></i></a>
+
+                                    <ul class="sub-down position-absolute">
+                                        <li><a href="">Directory Home</a></li> 
+                                        <li><a href="">Directory Detail</a></li> 
+                                    </ul>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center position-relative">
+                                    <a href="" class="dropdown-item p-0">Add Listing</a>
+                                    <a><i class="fa-solid fa-ellipsis"></i></a>
+
+                                    <ul class="sub-down position-absolute">
+                                        <li><a href="">Join us</a></li>
+                                        <li><a href="">Add Listing</a></li>
+                                        <li><a href="">Add Listing Minimal</a></li>
+                                        <li><a href="">Listing Addred</a></li>
+                                    </ul>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center position-relative">
+                                    <a href="" class="dropdown-item p-0">Hero</a>
+                                    <a><i class="fa-solid fa-ellipsis"></i></a>
+
+                                    <ul class="sub-down position-absolute">
+                                        <li><a href="">Hero Inline Form</a></li>
+                                        <li><a href="">Hero Multiple Search</a></li>
+                                        <li><a href="">Hero Image Gallery</a></li>
+                                        <li><a href="">Hero Split</a></li>
+                                    </ul>
+                                </li>
+                                <li class="d-flex ">
+                                    <a href="" class="dropdown-item p-0">Booking Confirmed</a>
+                                </li>
+                                <li class="d-flex ">
+                                    <a href="" class="dropdown-item p-0">Compare Listing</a>
+                                </li>
+                                <li class="d-flex ">
+                                    <a href="" class="dropdown-item p-0">Offer Detail</a> 
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-block w-100"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Listings <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" style="width:0px;">
+                                <li class="d-flex ">
+                                    <a href="" class="dropdown-item p-0">About</a>
+                                </li>
+                                <li class="d-flex ">
+                                    <a href="" class="dropdown-item p-0">Contact</a>
+                                </li>
+                                <li class="d-flex ">
+                                    <a href="" class="dropdown-item p-0">Contact2</a>
+                                </li>
+                                <li class="d-flex ">
+                                    <a href="" class="dropdown-item p-0">Our Team</a>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center position-relative">
+                                    <a href="" class="link">
+                                        <a href="" class="dropdown-item p-0">Authentication</a>
+                                        <a><i class="fa-solid fa-ellipsis"></i></a>
+                                    </a>
+
+                                    <ul class="sub-down position-absolute">
+                                        <li><a href="">Sign In</a></li>
+                                        <li><a href="">Sign up</a></li>
+                                        <li><a href="">Forget Passwort</a></li>
+                                        <li><a href=""> Two Factor Authentication  </a></li> 
+                                    </ul>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center position-relative">
+                                    <a href="" class="link">
+                                        <a href="" class="dropdown-item p-0">Blog</a>
+                                        <a><i class="fa-solid fa-ellipsis"></i></a>
+                                    </a>
+
+                                    <ul class="sub-down position-absolute">
+                                        <li><a href=""> Blog  </a></li>
+                                        <li><a href="">Blog Detail</a></li> 
+                                    </ul>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center position-relative">
+                                    <a href="" class="link">
+                                        <a href="" class="dropdown-item p-0">Help</a>
+                                        <a><i class="fa-solid fa-ellipsis"></i></a>
+                                    </a>
+
+                                    <ul class="sub-down position-absolute">
+                                        <li><a href="">Help Center  </a></li>
+                                        <li><a href="">Help Detail  </a></li>
+                                        <li><a href=""> Privacy Policy  </a></li>
+                                        <li><a href=""> Terms of Services  </a></li>
+                                    </ul>
+                                </li>
+                                <li class="d-flex ">
+                                    <a href="" class="dropdown-item p-0">Pricing</a>
+                                </li>
+                                <li class="d-flex ">
+                                    <a href="" class="dropdown-item p-0">FAQs</a>
+                                </li>
+                                <li class="d-flex ">
+                                    <a href="" class="dropdown-item p-0">Error 404  </a> 
+                                </li>
+                                <li class="d-flex ">
+                                    <a href="" class="dropdown-item p-0">Coming Soon </a> 
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-block w-100"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Accounts <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" style="width:0px;">
+                                <li class="d-flex justify-content-between align-items-center position-relative">
+                                    <a href="" class="link">
+                                        <a href="" class="dropdown-item p-0">User Profile</a>
+                                        <a><i class="fa-solid fa-ellipsis"></i></a>
+                                    </a>
+
+                                    <ul class="sub-down position-absolute">
+                                        <li><a href=""> My Profile </a></li> 
+                                        <li><a href=""> My Booking </a></li> 
+                                        <li><a href=""> Travelers </a></li> 
+                                        <li><a href=""> Payment Details </a></li> 
+                                        <li><a href=""> Wishlist  </a></li> 
+                                        <li><a href=""> Settings  </a></li> 
+                                        <li><a href=""> Delete Profile  </a></li> 
+                                    </ul>
+                                </li>
+                                <li class="d-flex justify-content-between align-items-center position-relative">
+                                    <a href="" class="link">
+                                        <a href="" class="dropdown-item p-0">Agent Dashboard</a>
+                                        <a><i class="fa-solid fa-ellipsis"></i></a>
+                                    </a>
+
+                                    <ul class="sub-down position-absolute">
+                                        <li><a href="">Dashboard </a></li> 
+                                        <li><a href="">Listings </a></li> 
+                                        <li><a href="">Booking </a></li> 
+                                        <li><a href="">Activities </a></li> 
+                                        <li><a href="">Earnings </a></li> 
+                                        <li><a href="">Reviews </a></li> 
+                                        <li><a href="">Settings </a></li> 
+                                    </ul>
+                                </li>
+                                <li class="d-flex ">
+                                    <a href="" class="dropdown-item p-0"> Master Admin </a> 
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link d-block w-100"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </a>
+                            <ul class="dropdown-menu"> 
+                                <li class="d-flex justify-content-start">
+                                    <a href="" class="link">
+                                        <a><i class="fa-solid fa-life-ring" style="color: #FFD43B;"></i></a>
+                                        <a href="" class="dropdown-item p-0 ps-2">Support</a>
+                                    </a>
+                                </li>
+                                <li class="d-flex justify-content-start">
+                                    <a href="" class="link">
+                                        <a><i class="fa-solid fa-id-card" style="color: #f05c5c;"></i></a>
+                                        <a href="" class="dropdown-item p-0 ps-2">Documentation</a>
+                                    </a>
+                                </li>
+
+                                <li class="line"><hr class="dropdown-divider"></li>
+
+                                <li class="d-flex justify-content-start">
+                                    <a href="" class="link">
+                                        <a><i class="fa-solid fa-toggle-off" style="color: #74C0FC;"></i></a>
+                                        <a href="" class="dropdown-item p-0 ps-2">RTL:Demo</a>
+                                    </a>
+                                </li>
+                                <li class="d-flex justify-content-start">
+                                    <a href="" class="link">
+                                        <a><i class="fa-solid fa-cloud-arrow-down" style="color: #63E6BE;"></i></a>
+                                        <a href="" class="dropdown-item p-0 ps-2">But Booing!</a>
+                                    </a>
+                                </li>
+
+                                <li class="line"><hr class="dropdown-divider"></li>
+
+                                <li class="d-flex justify-content-start">
+                                    <a href="" class="link">
+                                        <a><i class="fa-brands fa-web-awesome" style="color: #FFD43B;"></i></a>
+                                        <a href="" class="dropdown-item p-0 ps-2">Components</a>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="social d-flex justify-content-between ">
+                    <a href=""><i class="fa-solid fa-user-group"></i></a>
+                    <a href=""><i class="fa-solid fa-bell"></i></a>
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container" style="padding:90px 0px;">
+        <div class="row g-4">
+            <div class="col-xl-12">
+                <div class="box text-center py-4">
+                    <h1 >
+                        Featured Hotels
+                    </h1>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="box">
+                    <div class="card overflow-hidden">
+                        <div class="card-header position-relative overflow-hidden">
+                            <img src="img/1.jpg" alt="" style="width:100%">
+                            <p class="m-0 badge position-absolute bg-dark" style="left:20px;bottom:20px;"> 
+                                <i class="bi bi-geo-alt"></i> New York
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title fs-3 fw-semibold">Baga Comfort</h2>
+                            <p class="m-0 d-flex justify-content-between ">
+                                <span>$455/starting at</span>
+                                <span>
+                                    4.5
+                                    <i class="bi bi-star-fill" style="color:#ffff00" ></i>
+                                </span>
+                            </p>
+                            <a href="#openmodal1" role="button" data-bs-toggle="modal"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="box">
+                    <div class="card overflow-hidden">
+                        <div class="card-header position-relative overflow-hidden">
+                            <img src="img/2.jpg" alt="" style="width:100%">
+                            <p class="m-0 badge position-absolute bg-dark" style="left:20px;bottom:20px;"> 
+                                <i class="bi bi-geo-alt"></i> California
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title fs-3 fw-semibold">New Apollo Hetel</h2>
+                            <p class="m-0 d-flex justify-content-between ">
+                                <span>$585/starting at</span>
+                                <span>
+                                    4.9
+                                    <i class="bi bi-star-fill" style="color:#ffff00" ></i>
+                                </span>
+                            </p>
+                            <a href="#openmodal2" role="button" data-bs-toggle="modal"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="box">
+                    <div class="card overflow-hidden">
+                        <div class="card-header position-relative overflow-hidden">
+                            <img src="img/3.jpg" alt="" style="width:100%">
+                            <p class="m-0 badge position-absolute bg-dark" style="left:20px;bottom:20px;"> 
+                                <i class="bi bi-geo-alt"></i> Los Angeles
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title fs-3 fw-semibold">New Age Hotel</h2>
+                            <p class="m-0 d-flex justify-content-between ">
+                                <span>$385/starting at</span>
+                                <span>
+                                    5.5
+                                    <i class="bi bi-star-fill" style="color:#ffff00" ></i>
+                                </span>
+                            </p>
+                            <a href="#openmodal3" role="button" data-bs-toggle="modal"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="box">
+                    <div class="card overflow-hidden">
+                        <div class="card-header position-relative overflow-hidden">
+                            <img src="img/4.jpg" alt="" style="width:100%">
+                            <p class="m-0 badge position-absolute bg-dark" style="left:20px;bottom:20px;"> 
+                                <i class="bi bi-geo-alt"></i> Chicago
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="card-title fs-3 fw-semibold">Helios Beach Resort</h2>
+                            <p class="m-0 d-flex justify-content-between ">
+                                <span>$668/starting at</span>
+                                <span>
+                                    5.3
+                                    <i class="bi bi-star-fill" style="color:#ffff00" ></i>
+                                </span>
+                            </p>
+                            <a href="#openmodal4" role="button" data-bs-toggle="modal"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="modal" id="openmodal1">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h4 class="modal-title">Modal title</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                    
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                
+                                <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"> -->
+                                <div id="carouselExampleIndicators" class="carousel slide"  data-bs-ride="carousel" data-bs-interval="1600">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                        </div>
+
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="img/5.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/6.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/7.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/8.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/9.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                </div>
+
+                                <div class="modal-box d-flex justify-content-between mt-3 flex-lg-row flex-column">
+                                    <div class="w-50 p-3 w-100" style="background-color:#a1a0a0;">
+                                        <h2 class="fw-semibold">Get In Touch</h2>
+                                        <form action="">
+                                            <div class="mb-4">
+                                                <label class="form-label">Full Name</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="mb-4">
+                                                <label for="" class="form-label">Username</label>
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                                    <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                            <div class="mb-4">
+                                                <label for="" class="form-label">Textarea</label>
+                                                <textarea class="form-control" id="" cols="30" rows="10" placeholder="Your Massage here..."></textarea>
+                                            </div>
+                                            <div>
+                                                <input class="btn btn-primary" type="submit" value="Send">
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <div class="w-50 p-3 w-100">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d488.5891314361653!2d104.89327031190734!3d11.572416573447564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31095175e19439b9%3A0x54ca4747aa3b48e6!2s42%20St%20606%2C%20Phnom%20Penh!5e0!3m2!1sen!2skh!4v1714579644576!5m2!1sen!2skh" width="100%" height="566.4" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button class="btn btn-danger" data-bs-toggle="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="openmodal2">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h4 class="modal-title">Modal title</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                    
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                
+                                <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"> -->
+                                <div id="carouselExampleIndicators2" class="carousel slide"  data-bs-ride="carousel" data-bs-interval="1600">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                        </div>
+
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="img/6.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/5.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/7.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/8.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/9.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                </div>
+
+                                <div class="modal-box d-flex justify-content-between mt-3 flex-lg-row flex-column">
+
+                                    <div class="w-50 p-3 w-100" style="background-color:#a1a0a0;">
+                                        <h2 class="fw-semibold">Get In Touch</h2>
+                                        <form action="">
+                                            <div class="mb-4">
+                                                <label class="form-label">Full Name</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="mb-4">
+                                                <label for="" class="form-label">Username</label>
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                                    <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                            <div class="mb-4">
+                                                <label for="" class="form-label">Textarea</label>
+                                                <textarea class="form-control" id="" cols="30" rows="10" placeholder="Your Massage here..."></textarea>
+                                            </div>
+                                            <div>
+                                                <input class="btn btn-primary" type="submit" value="Send">
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <div class="w-50 p-3 w-100">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d488.5891314361653!2d104.89327031190734!3d11.572416573447564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31095175e19439b9%3A0x54ca4747aa3b48e6!2s42%20St%20606%2C%20Phnom%20Penh!5e0!3m2!1sen!2skh!4v1714579644576!5m2!1sen!2skh" width="100%" height="566.4" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button class="btn btn-danger" data-bs-toggle="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="openmodal3">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h4 class="modal-title">Modal title</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                    
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                
+                                <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"> -->
+                                <div id="carouselExampleIndicators3" class="carousel slide"  data-bs-ride="carousel" data-bs-interval="1600">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                        </div>
+
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="img/7.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/5.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/6.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/8.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/9.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                </div>
+
+                                <div class="modal-box d-flex justify-content-between mt-3 flex-lg-row flex-column">
+
+                                    <div class="w-50 p-3 w-100" style="background-color:#a1a0a0;">
+                                        <h2 class="fw-semibold">Get In Touch</h2>
+                                        <form action="">
+                                            <div class="mb-4">
+                                                <label class="form-label">Full Name</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="mb-4">
+                                                <label for="" class="form-label">Username</label>
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                                    <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                            <div class="mb-4">
+                                                <label for="" class="form-label">Textarea</label>
+                                                <textarea class="form-control" id="" cols="30" rows="10" placeholder="Your Massage here..."></textarea>
+                                            </div>
+                                            <div>
+                                                <input class="btn btn-primary" type="submit" value="Send">
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <div class="w-50 p-3 w-100">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d488.5891314361653!2d104.89327031190734!3d11.572416573447564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31095175e19439b9%3A0x54ca4747aa3b48e6!2s42%20St%20606%2C%20Phnom%20Penh!5e0!3m2!1sen!2skh!4v1714579644576!5m2!1sen!2skh" width="100%" height="566.4" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button class="btn btn-danger" data-bs-toggle="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="openmodal4">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h4 class="modal-title">Modal title</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                    
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                
+                                <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"> -->
+                                <div id="carouselExampleIndicators4" class="carousel slide"  data-bs-ride="carousel" data-bs-interval="1500">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                        </div>
+
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="img/8.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item ">
+                                                    <img src="img/5.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/6.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/7.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="img/9.jpg" class="d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                </div>
+
+                                <div class="modal-box d-flex justify-content-between mt-3 flex-lg-row flex-column">
+
+                                    <div class="w-50 p-3 w-100" style="background-color:#a1a0a0;">
+                                        <h2 class="fw-semibold">Get In Touch</h2>
+                                        <form action="">
+                                            <div class="mb-4">
+                                                <label class="form-label">Full Name</label>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="mb-4">
+                                                <label for="" class="form-label">Username</label>
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                                    <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                                </div>
+                                            </div>
+                                            <div class="mb-4">
+                                                <label for="" class="form-label">Textarea</label>
+                                                <textarea class="form-control" id="" cols="30" rows="10" placeholder="Your Massage here..."></textarea>
+                                            </div>
+                                            <div>
+                                                <input class="btn btn-primary" type="submit" value="Send">
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <div class="w-50 p-3 w-100">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d488.5891314361653!2d104.89327031190734!3d11.572416573447564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31095175e19439b9%3A0x54ca4747aa3b48e6!2s42%20St%20606%2C%20Phnom%20Penh!5e0!3m2!1sen!2skh!4v1714579644576!5m2!1sen!2skh" width="100%" height="566.4" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button class="btn btn-danger" data-bs-toggle="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-12">
+                <div class="box py-3">
+                    <h1 class="text-center text-white">
+                        Footer
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
